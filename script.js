@@ -8,7 +8,7 @@ console.log("BMI Calculator");
     const isUnderWeight = bmi <= 18.5;
     const isNormal = bmi >= 18.5 && bmi < 25;
     const isOverWeight = bmi  == 25 || bmi > 25;
-    const isHighRisk = weightKg >= 90 || bmi == isOverWeight;
+    const isHighRisk = weightKg > 90 || isOverWeight;
         isHighRisk ? window.alert("You are at High Risk") : "";
     console.log(`User BMI: ${bmi.toFixed(2)}`);
     console.log(`Underweight: ${isUnderWeight}`);
