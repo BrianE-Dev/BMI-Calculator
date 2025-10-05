@@ -5,7 +5,7 @@
 }
 body{
     font-family: Arial, sans-serif;
-    background-image: url("/medical-desk.jpg");
+    background-image: url("medical-desk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color: #333;
