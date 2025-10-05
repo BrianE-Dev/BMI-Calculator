@@ -1,6 +1,6 @@
 console.log("BMI Calculator");
     function bmi_calc(){
-    const pName = document.getElementById("p_pname").value;
+    const pName = document.getElementById("p_name").value;
     const weightKg = parseFloat(document.getElementById("weight").value);
     const heightM = parseFloat(document.getElementById("height").value);
     const bmi = weightKg / (heightM * heightM);
